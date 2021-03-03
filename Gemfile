@@ -7,3 +7,4 @@ gem "uri_template"
 gem "rake"
 
 gem "parallel_tests"
+gem "coveralls", require: false

@@ -1,5 +1,7 @@
 require 'cucumber/rake/task'
 require 'parallel_tests/tasks'
+require 'coveralls'
+Coveralls.wear!
 
 Cucumber::Rake::Task.new do |t|
   t.cucumber_opts = "--format progress --tags ~@failing"

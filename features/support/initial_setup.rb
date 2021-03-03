@@ -1,5 +1,7 @@
 require 'httparty'
 require 'json'
+require 'coveralls'
+Coveralls.wear!
 
 # TODO: move this into the lib
 $root_url = ENV['BALANCED_ROOT'] || 'https://api.balancedpayments.com'
